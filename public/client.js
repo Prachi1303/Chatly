@@ -1,5 +1,5 @@
 // Establish a WebSocket connection to the server
-const ws = new WebSocket(`ws://${location.host}`);
+const ws = new WebSocket(`wss://${location.host}`);
 
 let name;
 let messageInput = document.querySelector('#messageInput');
